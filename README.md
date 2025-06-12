@@ -91,7 +91,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-org/playpulse-panel.git
+   git clone https://github.com/your-org/playpulse-panel.git](https://github.com/hexlorddev/playpulse-panel.git 
    cd playpulse-panel
    ```
 

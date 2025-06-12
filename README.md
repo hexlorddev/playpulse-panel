@@ -1,167 +1,215 @@
-# PlayPulse - Game Server Hosting Panel
+# 🎮 **PlayPulse** ⚡
+### *The Ultimate Game Server Hosting Control Panel*
 
-**PlayPulse** is a comprehensive, production-ready game server hosting control panel built with Laravel and modern web technologies. It provides a powerful yet user-friendly interface for managing game servers, with support for multiple games, automated deployments, file management, and billing integration.
+<div align="center">
 
-## 🚀 Features
+[![🚀 Production Ready](https://img.shields.io/badge/🚀-Production%20Ready-brightgreen?style=for-the-badge&logo=rocket)](https://github.com/hexlorddev/playpulse-panel)
+[![⚡ Laravel](https://img.shields.io/badge/⚡-Laravel%2010.x-red?style=for-the-badge&logo=laravel)](https://laravel.com)
+[![🐳 Docker](https://img.shields.io/badge/🐳-Docker%20Ready-blue?style=for-the-badge&logo=docker)](https://docker.com)
+[![📊 Modern Stack](https://img.shields.io/badge/📊-Modern%20Stack-purple?style=for-the-badge)](https://github.com/hexlorddev/playpulse-panel)
 
-### 🎮 Server Management
-- **Multi-Game Support**: Minecraft (Vanilla, Paper, Spigot, Forge, Fabric), Source Games (CS:GO, CS2, TF2, Garry's Mod), Rust, ARK, Terraria, Valheim, and more
-- **One-Click Deployment**: Instant server creation with pre-configured templates
-- **Real-Time Monitoring**: Live CPU, RAM, disk, and network usage tracking
-- **Server Controls**: Start, stop, restart, and kill server operations
-- **Console Access**: Full web-based console with command execution
-- **Automated Management**: Crash detection, auto-restart, and health monitoring
+</div>
 
-### 📁 File Management
-- **Web-Based File Manager**: Complete file system access through the browser
-- **Code Editor**: Syntax-highlighted editor for configuration files
-- **File Operations**: Upload, download, compress, extract, and bulk operations
-- **Permission Management**: File permission controls and ownership
-- **Configuration Templates**: Auto-generated config files for different games
-- **Version Control**: File change tracking and rollback functionality
+---
 
-### 💾 Backup System
-- **Automated Backups**: Scheduled and manual backup creation
-- **Multiple Storage**: Local, AWS S3, and cloud storage support
-- **Incremental Backups**: Efficient storage with differential backups
-- **One-Click Restore**: Fast server restoration from backups
-- **Backup Management**: Retention policies, compression, and encryption
+## 🌟 **What is PlayPulse?**
 
-### 👥 User Management
-- **Role-Based Access**: Super Admin, Admin, Reseller, User, and Sub-user roles
-- **Two-Factor Authentication**: Enhanced security with 2FA support
-- **OAuth Integration**: Login with Google, Discord, and Steam
-- **Sub-Accounts**: Reseller and user hierarchy management
-- **Permission System**: Granular access control for all features
+> **PlayPulse** is a *comprehensive*, *production-ready* game server hosting control panel that transforms the way you manage game servers. Built with **Laravel** and cutting-edge web technologies, it delivers a powerful yet intuitive interface for seamless game server management.
 
-### 💳 Billing & Subscriptions
-- **Payment Integration**: Stripe, PayPal, and custom gateway support
-- **Flexible Plans**: Usage-based billing with resource limits
-- **Subscription Management**: Automated billing cycles and renewals
-- **Invoice System**: Automated invoice generation and delivery
-- **Resource Monitoring**: Real-time usage tracking against plan limits
+---
 
-### 🖥️ Node Management
-- **Multi-Node Architecture**: Distribute servers across multiple nodes
-- **Load Balancing**: Automatic server placement and resource optimization
-- **Node Monitoring**: Real-time node health and resource tracking
-- **Geographic Distribution**: Global server deployment capabilities
-- **Maintenance Mode**: Graceful node maintenance and migration
+## ✨ **FEATURES SHOWCASE**
 
-### 📊 Analytics & Monitoring
-- **Performance Metrics**: Detailed server and user analytics
-- **Resource Usage**: Historical data and trending analysis
-- **Player Statistics**: Game-specific metrics and player tracking
-- **Alerts System**: Automated notifications for issues and events
-- **Custom Dashboards**: Personalized monitoring interfaces
+### 🎯 **Server Management Excellence**
+```
+🎮 Multi-Game Mastery
+   ├── 🟢 Minecraft (Vanilla, Paper, Spigot, Forge, Fabric)
+   ├── 🔴 Source Games (CS:GO, CS2, TF2, Garry's Mod)
+   ├── 🟤 Rust & ARK Survival
+   └── 🟣 Terraria & Valheim
 
-### 🔌 API & Integrations
-- **RESTful API**: Complete API coverage for all panel functions
-- **WebSocket Support**: Real-time updates and live monitoring
-- **Webhook System**: External service integrations
-- **Discord Bot**: Server management through Discord
-- **WHMCS Integration**: Billing system synchronization
+⚡ One-Click Magic
+   ├── 🚀 Instant server deployment
+   ├── 📋 Pre-configured templates
+   └── 🎯 Zero-config setup
 
-## 🛠️ Technology Stack
+📊 Real-Time Intelligence
+   ├── 💻 Live CPU monitoring
+   ├── 🧠 RAM usage tracking
+   ├── 💾 Disk space analytics
+   └── 🌐 Network performance
+```
 
-### Backend
-- **PHP 8.1+** with Laravel 10.x
-- **MySQL/PostgreSQL** for primary data storage
-- **Redis** for caching and session management
-- **JWT Authentication** with refresh token rotation
-- **Queue System** for background job processing
+### 🗂️ **File Management Powerhouse**
+```
+📁 Complete File System Control
+   ├── 🌐 Web-based file manager
+   ├── ✏️  Syntax-highlighted editor
+   ├── 📤 Upload/download operations
+   ├── 🗜️  Compress & extract tools
+   └── 🔐 Permission management
 
-### Frontend
-- **Blade Templates** with modern CSS framework
-- **Tailwind CSS** for responsive design
-- **Alpine.js** for interactive components
-- **Chart.js** for data visualization
-- **WebSocket** for real-time updates
+🔄 Version Control Integration
+   ├── 📝 Change tracking
+   ├── ⏪ Rollback functionality
+   └── 📊 Diff visualization
+```
 
-### Infrastructure
-- **Docker** containerization for easy deployment
-- **Nginx** web server with optimized configuration
-- **Supervisor** for process management
-- **AWS S3** integration for file storage
-- **CI/CD** ready with GitHub Actions
+### 💾 **Backup System Revolution**
+```
+🔄 Automated Backup Solutions
+   ├── ⏰ Scheduled backups
+   ├── 🎯 Manual backup creation
+   ├── ☁️  Multi-cloud storage (AWS S3)
+   ├── 📈 Incremental backups
+   └── 🔒 Encryption & compression
 
-## 📦 Installation
+⚡ Lightning-Fast Restore
+   ├── 🎯 One-click restoration
+   ├── 📋 Multiple restore points
+   └── 🔄 Zero-downtime migration
+```
 
-### Quick Start with Docker
+### 👥 **Advanced User Management**
+```
+🔐 Role-Based Access Control
+   ├── 👑 Super Admin
+   ├── 🛡️  Admin
+   ├── 💼 Reseller
+   ├── 👤 User
+   └── 👶 Sub-user
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-org/playpulse-panel.git](https://github.com/hexlorddev/playpulse-panel.git 
-   cd playpulse-panel
-   ```
+🔒 Security Excellence
+   ├── 🔐 Two-Factor Authentication
+   ├── 🌐 OAuth Integration (Google, Discord, Steam)
+   ├── 🔑 JWT Authentication
+   └── 📊 Session management
+```
 
-2. **Configure environment**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your database and application settings
-   ```
+### 💳 **Billing & Subscription Mastery**
+```
+💰 Payment Gateway Integration
+   ├── 💳 Stripe
+   ├── 🟦 PayPal
+   └── 🔧 Custom gateways
 
-3. **Start with Docker Compose**
-   ```bash
-   docker-compose up -d
-   ```
+📊 Flexible Billing Models
+   ├── 📈 Usage-based billing
+   ├── 🔄 Subscription management
+   ├── 📄 Automated invoicing
+   └── 📊 Resource monitoring
+```
 
-4. **Run initial setup**
-   ```bash
-   docker exec -it playpulse-panel php artisan key:generate
-   docker exec -it playpulse-panel php artisan migrate --seed
-   ```
+---
 
-5. **Access the panel**
-   - Open `http://localhost` in your browser
-   - Login with the default admin credentials
+## 🛠️ **TECHNOLOGY POWERHOUSE**
 
-### Manual Installation
+<div align="center">
 
-1. **Requirements**
-   - PHP 8.1 or higher
-   - Composer
-   - Node.js 16+ and NPM
-   - MySQL 8.0+ or PostgreSQL 13+
-   - Redis 6.0+
+### **Backend Architecture**
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| 🐘 **PHP** | `8.1+` | Core Runtime |
+| 🚀 **Laravel** | `10.x` | Framework |
+| 🗄️ **MySQL/PostgreSQL** | `8.0+/13+` | Database |
+| ⚡ **Redis** | `6.0+` | Caching |
+| 🔑 **JWT** | Latest | Authentication |
 
-2. **Install dependencies**
-   ```bash
-   composer install
-   npm install && npm run build
-   ```
+### **Frontend Excellence**
+| Technology | Purpose |
+|------------|---------|
+| 🎨 **Tailwind CSS** | Styling Framework |
+| ⚡ **Alpine.js** | Reactivity |
+| 📊 **Chart.js** | Data Visualization |
+| 🔌 **WebSocket** | Real-time Updates |
 
-3. **Configure application**
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   php artisan jwt:secret
-   ```
+### **Infrastructure**
+| Tool | Purpose |
+|------|---------|
+| 🐳 **Docker** | Containerization |
+| 🌐 **Nginx** | Web Server |
+| 👁️ **Supervisor** | Process Management |
+| ☁️ **AWS S3** | File Storage |
+| 🔄 **GitHub Actions** | CI/CD |
 
-4. **Database setup**
-   ```bash
-   php artisan migrate
-   php artisan db:seed
-   ```
+</div>
 
-5. **Start services**
-   ```bash
-   php artisan serve
-   php artisan queue:work
-   ```
+---
 
-## 🔧 Configuration
+## 🚀 **INSTALLATION GUIDE**
 
-### Environment Variables
+### 🐳 **Quick Start with Docker** *(Recommended)*
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/hexlorddev/playpulse-panel.git
+cd playpulse-panel
+
+# 2️⃣ Configure environment
+cp .env.example .env
+# ✏️ Edit .env with your settings
+
+# 3️⃣ Launch with Docker Compose
+docker-compose up -d
+
+# 4️⃣ Initialize the application
+docker exec -it playpulse-panel php artisan key:generate
+docker exec -it playpulse-panel php artisan migrate --seed
+
+# 5️⃣ 🎉 Access your panel at http://localhost
+```
+
+### ⚙️ **Manual Installation**
+
+<details>
+<summary>📋 <strong>Click to expand manual installation steps</strong></summary>
+
+#### **Prerequisites**
+- 🐘 PHP 8.1+
+- 📦 Composer
+- 🟢 Node.js 16+ & NPM
+- 🗄️ MySQL 8.0+ or PostgreSQL 13+
+- ⚡ Redis 6.0+
+
+#### **Installation Steps**
+```bash
+# Install dependencies
+composer install
+npm install && npm run build
+
+# Configure application
+cp .env.example .env
+php artisan key:generate
+php artisan jwt:secret
+
+# Setup database
+php artisan migrate
+php artisan db:seed
+
+# Start services
+php artisan serve
+php artisan queue:work
+```
+
+</details>
+
+---
+
+## 🔧 **CONFIGURATION**
+
+### 🌍 **Environment Variables**
+
+<details>
+<summary>📋 <strong>Essential Configuration Settings</strong></summary>
 
 ```env
-# Application
+# 🎯 Application Settings
 APP_NAME="PlayPulse"
 APP_ENV=production
 APP_DEBUG=false
 APP_URL=https://your-domain.com
 
-# Database
+# 🗄️ Database Configuration
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -169,24 +217,24 @@ DB_DATABASE=playpulse
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
 
-# Redis
+# ⚡ Redis Configuration
 REDIS_HOST=127.0.0.1
 REDIS_PORT=6379
 
-# Mail
+# 📧 Mail Settings
 MAIL_MAILER=smtp
 MAIL_HOST=your-smtp-host
 MAIL_PORT=587
 MAIL_USERNAME=your-email
 MAIL_PASSWORD=your-password
 
-# Payment Gateways
+# 💳 Payment Gateways
 STRIPE_KEY=your_stripe_key
 STRIPE_SECRET=your_stripe_secret
 PAYPAL_CLIENT_ID=your_paypal_client_id
 PAYPAL_CLIENT_SECRET=your_paypal_secret
 
-# File Storage
+# ☁️ File Storage
 FILESYSTEM_DISK=s3
 AWS_ACCESS_KEY_ID=your_aws_key
 AWS_SECRET_ACCESS_KEY=your_aws_secret
@@ -194,135 +242,182 @@ AWS_DEFAULT_REGION=us-east-1
 AWS_BUCKET=your-bucket-name
 ```
 
-### Server Templates
+</details>
 
-Create custom server templates in `database/seeders/ServerTemplateSeeder.php`:
+---
 
-```php
-ServerTemplate::create([
-    'name' => 'Minecraft Paper 1.20.1',
-    'slug' => 'minecraft-paper-1-20-1',
-    'category' => 'minecraft',
-    'game' => 'minecraft',
-    'docker_image' => 'playpulse/minecraft:paper-1.20.1',
-    'startup_command' => 'java -Xms{{MEMORY}}M -Xmx{{MEMORY}}M -jar server.jar',
-    'default_port' => 25565,
-    'min_memory' => 1024,
-    'max_memory' => 8192,
-    // ... other configuration
-]);
-```
+## 📚 **API DOCUMENTATION**
 
-## 📚 API Documentation
-
-### Authentication
-
-All API requests require authentication using Bearer tokens:
-
+### 🔐 **Authentication**
 ```bash
+# All API requests require Bearer token authentication
 curl -H "Authorization: Bearer YOUR_TOKEN" \
      -H "Content-Type: application/json" \
      https://your-panel.com/api/v1/servers
 ```
 
-### Server Management
+### 🎮 **Server Management API**
+
+<details>
+<summary>📋 <strong>Server API Endpoints</strong></summary>
 
 ```bash
-# List servers
+# 📋 List all servers
 GET /api/v1/servers
 
-# Create server
+# 🚀 Create new server
 POST /api/v1/servers
 {
-    "name": "My Server",
+    "name": "My Awesome Server",
     "template_id": 1,
     "memory": 2048,
     "cpu": 100,
     "disk": 5120
 }
 
-# Server controls
-POST /api/v1/servers/{id}/start
-POST /api/v1/servers/{id}/stop
-POST /api/v1/servers/{id}/restart
+# 🎯 Server controls
+POST /api/v1/servers/{id}/start    # ▶️ Start server
+POST /api/v1/servers/{id}/stop     # ⏹️ Stop server
+POST /api/v1/servers/{id}/restart  # 🔄 Restart server
 
-# Get server info
+# 📊 Get server information
 GET /api/v1/servers/{id}
 ```
 
-### File Management
+</details>
+
+### 📁 **File Management API**
+
+<details>
+<summary>📋 <strong>File API Endpoints</strong></summary>
 
 ```bash
-# List files
+# 📋 List directory contents
 GET /api/v1/servers/{id}/files?path=/
 
-# Upload file
+# 📤 Upload file
 POST /api/v1/servers/{id}/files/upload
 
-# Download file
+# 📥 Download file
 GET /api/v1/servers/{id}/files/download?file=server.properties
+
+# ✏️ Edit file content
+PUT /api/v1/servers/{id}/files/edit
 ```
 
-## 🎯 Game-Specific Features
-
-### Minecraft
-- **Version Management**: Support for all major Minecraft versions
-- **Plugin Management**: Automatic plugin installation and updates
-- **World Management**: Multiple world support and generation
-- **Player Management**: Whitelist, ban, and operator controls
-- **Performance Optimization**: Automatic JVM tuning and optimization
-
-### Source Games
-- **Map Management**: Automatic map downloads and rotation
-- **Mod Support**: Workshop integration and mod management
-- **RCON Integration**: Remote console access and control
-- **Statistics Tracking**: Player stats and server metrics
-
-## 🔒 Security Features
-
-- **Container Isolation**: Each server runs in its own Docker container
-- **Resource Limits**: Strict CPU, memory, and disk quotas
-- **Network Security**: Firewall rules and port management
-- **File System Protection**: Chroot jails and permission controls
-- **DDoS Protection**: Rate limiting and traffic filtering
-- **Audit Logging**: Complete activity logging and monitoring
-
-## 🚀 Performance & Scaling
-
-- **Horizontal Scaling**: Add nodes to increase capacity
-- **Load Balancing**: Automatic server placement optimization
-- **Caching**: Redis-based caching for improved performance
-- **Queue Processing**: Background job processing for heavy tasks
-- **CDN Integration**: Static asset delivery optimization
-- **Database Optimization**: Query optimization and indexing
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Submit a pull request
-
-## 📄 License
-
-PlayPulse is open-source software licensed under the [MIT License](LICENSE).
-
-## 🆘 Support
-
-- **Documentation**: [docs.playpulse.com](https://docs.playpulse.com)
-- **Discord**: [Join our community](https://discord.gg/playpulse)
-- **Issues**: [GitHub Issues](https://github.com/your-org/playpulse-panel/issues)
-- **Email**: support@playpulse.com
-
-## 🙏 Acknowledgments
-
-- Laravel framework and community
-- Docker and containerization ecosystem
-- All the game server communities that inspired this project
+</details>
 
 ---
 
-**PlayPulse** - Empowering the next generation of game server hosting.
+## 🎯 **GAME-SPECIFIC FEATURES**
+
+### 🟢 **Minecraft Excellence**
+```
+🎮 Minecraft Management
+├── 🏗️ Version Management (All major versions)
+├── 🔌 Plugin Management (Auto-install & updates)
+├── 🌍 World Management (Multiple worlds)
+├── 👥 Player Management (Whitelist, bans, ops)
+└── ⚡ Performance Optimization (JVM tuning)
+```
+
+### 🔴 **Source Games Mastery**
+```
+🎯 Source Game Features
+├── 🗺️ Map Management (Auto-downloads & rotation)
+├── 🔧 Mod Support (Workshop integration)
+├── 🖥️ RCON Integration (Remote console)
+└── 📊 Statistics Tracking (Player stats & metrics)
+```
+
+---
+
+## 🔒 **SECURITY FORTRESS**
+
+```
+🛡️ Multi-Layer Security
+├── 🐳 Container Isolation (Docker containers)
+├── 📊 Resource Limits (CPU, memory, disk quotas)
+├── 🌐 Network Security (Firewall & port management)
+├── 📁 File System Protection (Chroot jails)
+├── 🚫 DDoS Protection (Rate limiting)
+└── 📝 Audit Logging (Complete activity tracking)
+```
+
+---
+
+## 🚀 **PERFORMANCE & SCALING**
+
+```
+⚡ Scaling Solutions
+├── 📈 Horizontal Scaling (Multi-node architecture)
+├── ⚖️ Load Balancing (Automatic optimization)
+├── 🗄️ Caching (Redis-based performance)
+├── 🔄 Queue Processing (Background jobs)
+├── 🌐 CDN Integration (Static asset delivery)
+└── 🗃️ Database Optimization (Query & indexing)
+```
+
+---
+
+## 🤝 **CONTRIBUTING**
+
+We ❤️ contributions! Here's how to get started:
+
+```
+🛠️ Contribution Workflow
+├── 🍴 Fork the repository
+├── 🌿 Create feature branch
+├── ✏️ Make your changes
+├── 🧪 Add tests for new functionality
+└── 📤 Submit pull request
+```
+
+> **📋 Guidelines**: Please see our [Contributing Guide](CONTRIBUTING.md) for detailed information.
+
+---
+
+## 📄 **LICENSE**
+
+**PlayPulse** is open-source software licensed under the **MIT License**.
+
+---
+
+## 🆘 **SUPPORT & COMMUNITY**
+
+<div align="center">
+
+| Resource | Link |
+|----------|------|
+| 📚 **Documentation** | [docs.playpulse.com](https://docs.playpulse.com) |
+| 💬 **Discord Community** | [Join our Discord](https://discord.gg/playpulse) |
+| 🐛 **Report Issues** | [GitHub Issues](https://github.com/hexlorddev/playpulse-panel/issues) |
+| 📧 **Email Support** | support@playpulse.com |
+
+</div>
+
+---
+
+## 🙏 **ACKNOWLEDGMENTS**
+
+<div align="center">
+
+**Special thanks to:**
+- 🚀 **Laravel** framework and community
+- 🐳 **Docker** and containerization ecosystem
+- 🎮 **Game server communities** that inspired this project
+- 👥 **Open source contributors** worldwide
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎮 **PlayPulse** ⚡
+### *Empowering the Next Generation of Game Server Hosting*
+
+[![⭐ Star us on GitHub](https://img.shields.io/badge/⭐-Star%20us%20on%20GitHub-yellow?style=for-the-badge&logo=github)](https://github.com/hexlorddev/playpulse-panel)
+[![🚀 Deploy Now](https://img.shields.io/badge/🚀-Deploy%20Now-brightgreen?style=for-the-badge)](https://github.com/hexlorddev/playpulse-panel)
+
+</div>
